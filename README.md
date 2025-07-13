@@ -69,6 +69,9 @@ Weather API from OpenWeather
 
 UI Inspired by modern weather UIs
 
+## Linkedin post link:-
+https://www.linkedin.com/posts/gagan-tiwari-756331245_java-webapp-weatherapp-activity-7350133695321698304-xNCb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADy9MfIBzQmtvRX5VExPNQ_grtxEtCaiQJQ
+
 ## 👨‍💻 Author
 Made with 💙 by @Gagan
 
