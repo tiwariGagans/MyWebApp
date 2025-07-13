@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App - Gagan</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="mainContainer">
+    <div class="header" style="text-align: center; padding: 1rem; color: #fff;">
+      <img src="images/weather-logo.png" class="image-logo" alt="Logo" />
+      <h1>Welcome to the Weather Web App</h1>
+      <h3>Explain & Made by @Gagan</h3>
+      <h2 style="font-size: 1.2rem;">Technologies Used:</h2>
+      <p>HTML, CSS, JS, Java, Servlet, JSP, OpenWeather API</p>
+    </div>
+
+    <form action="MyServlet" method="post" class="searchInput">
+      <input type="text" placeholder="Enter City Name" id="searchInput" value="" name="city" />
+      <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+
+    <div class="weatherIcon">
+      <img src="image/download(1).png" alt="Weather Icon" />
+    </div>
+
+    <div class="weatherDetails">
+      <p class="temp">28°C</p>
+    </div>
+
+    <div class="cityDetails">
+      New Delhi
+      <div class="date">13 July 2025</div>
+    </div>
+
+    <div class="windDetails">
+      <div class="humidityBox">
+        <img src="https://cdn-icons-png.flaticon.com/512/728/728093.png" alt="Humidity" />
+        <div class="humidity">
+          <div class="humidityValue">62%</div>
+          <div>Humidity</div>
+        </div>
+      </div>
+      <div class="windSpeed">
+        <img src="https://cdn-icons-png.flaticon.com/512/414/414974.png" alt="Wind Speed" />
+        <div>
+          <div style="font-size: 2rem;">14 km/h</div>
+          <div>Wind</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
